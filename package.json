@@ -1,0 +1,19 @@
+{
+  "name": "pcha-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/prepare-build.cjs && npm run cv:build",
+    "cv:validate": "resume validate",
+    "cv:preview": "resume serve --theme ./cv/theme.cjs --dir .cv-preview --silent",
+    "cv:html": "node -e \"require('node:fs').mkdirSync('dist/cv', { recursive: true })\" && resume export dist/cv/index.html --theme ./cv/theme.cjs",
+    "cv:pdf": "node -e \"require('node:fs').mkdirSync('dist', { recursive: true })\" && resume export dist/cv.pdf --theme ./cv/theme.cjs",
+    "cv:build": "npm run cv:validate && npm run cv:html && npm run cv:pdf",
+    "cv:audit": "resume audit resume.json --theme ./cv/theme.cjs"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "6.4.2",
+    "jsonresume-theme-stackoverflow": "3.3.0",
+    "resume-cli": "3.9.4"
+  }
+}

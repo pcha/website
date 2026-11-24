@@ -1,0 +1,90 @@
+.url {
+  overflow-wrap: anywhere;
+}
+
+.pdf-download {
+  margin-top: var(--sp-4);
+}
+
+.pdf-download a {
+  text-decoration: underline;
+}
+
+@media screen {
+  /* Include the native icon in the profile link's pointer target. */
+  .profiles .username {
+    position: relative;
+  }
+
+  .profiles a::before {
+    position: absolute;
+    inset: 0;
+    content: "";
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+  }
+
+  .resume .skills-grid,
+  .resume .languages-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .resume .timeline-item header .date {
+    float: none;
+    padding: 0;
+  }
+
+  .resume .timeline-item,
+  .resume .skill-item {
+    break-inside: avoid;
+  }
+
+  .resume .section > header {
+    break-after: avoid-page;
+  }
+
+  .resume .section-title {
+    letter-spacing: normal;
+  }
+
+  .resume .contact,
+  .resume .profiles {
+    display: block;
+  }
+
+  /* Print identifiers as text and omit icon-font glyphs from extraction. */
+  .resume .fa-brands,
+  .resume .fa-solid,
+  .resume .fa-regular,
+  .pdf-download {
+    display: none;
+  }
+
+  .resume .profiles .url a .show-only-url-print {
+    display: inline;
+  }
+
+  .resume .profiles .url a::after {
+    content: none;
+  }
+
+  .resume .profiles .url a::before {
+    background: left center / 0.85em no-repeat;
+    padding-left: 1.2em;
+    print-color-adjust: exact;
+  }
+
+  .resume .profiles .url a[href*="linkedin.com"]::before {
+    background-image: var(--linkedin-icon);
+    content: "LinkedIn ";
+  }
+
+  .resume .profiles .url a[href*="github.com"]::before {
+    background-image: var(--github-icon);
+    content: "GitHub ";
+  }
+}

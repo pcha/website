@@ -1,0 +1,242 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/jsonresume.org/master/packages/schema/schema.json",
+  "basics": {
+    "name": "Pablo Cha",
+    "phone": "(+34) 6704 40 662",
+    "email": "pablocha1992@gmail.com",
+    "summary": "Senior Software Engineer with over a decade of experience building scalable and reliable software systems, with a strong background in Go, distributed systems, and backend architecture.\n\nI enjoy solving complex engineering problems, making pragmatic technical decisions, and taking ownership throughout the software development lifecycle. My experience spans multiple industries, with a focus on building maintainable systems that deliver long-term business value.",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "pablocha",
+        "url": "https://www.linkedin.com/in/pablocha/"
+      },
+      {
+        "network": "GitHub",
+        "username": "pcha",
+        "url": "https://github.com/pcha"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Celonis",
+      "position": "Senior Software Engineer",
+      "startDate": "2024-11",
+      "summary": "Working in the development of a product for code-less business flow automation, with microservices written in Go, PostgreSQL as storage, RabbitMQ for communication between services and temporal.io for handling workflows."
+    },
+    {
+      "name": "Emporix",
+      "position": "Senior Software Engineer",
+      "startDate": "2022-11",
+      "endDate": "2024-11",
+      "summary": "Working in the development of a product for code-less business flow automation, with microservices written in Go, MongoDB as storage, Nats for communication between services and temporal.io for handling workflows."
+    },
+    {
+      "name": "The Hotels Network (THN)",
+      "position": "Senior Software Engineer",
+      "startDate": "2021-11",
+      "endDate": "2022-11",
+      "summary": "Development of a system to collect data from different sources in real time, using Go, MongoDB and RedPand for communication between services."
+    },
+    {
+      "name": "Mercado Libre",
+      "position": "Senior Software Engineer",
+      "startDate": "2021-02",
+      "endDate": "2021-11",
+      "summary": "Developer in the Productivity Engineering Team, working with microservices written in Go or Java, Events Queue and Docker"
+    },
+    {
+      "name": "Fulljaus",
+      "position": "Technical Leader",
+      "startDate": "2019-07",
+      "endDate": "2021-02",
+      "summary": "I led the Fulljaus core development team working in PHP 7 and Symfony 3.4. Here I impulsed a refactor which reduced the integration time from at least 3 months to 1 months and I was an active part in the migration to Microservices written in Ruby on Rails. Also, my tasks as leader included deployments in production, watching for the stability in this environment and training new team members."
+    },
+    {
+      "name": "GeoPagos",
+      "position": "Backend Developer",
+      "startDate": "2018-06",
+      "endDate": "2019-07",
+      "summary": "I worked with php 7 and Symfony 2 in the development of the backend and the admin panel belonging to mPOS platforms."
+    },
+    {
+      "name": "Summa Solution",
+      "position": "Magento Developer",
+      "startDate": "2017-01",
+      "endDate": "2018-06",
+      "summary": "I work over PHP 5.6 with Magento 1 and over PHP 7 with Magento 2. I was in charge of the production deployments and site stability in some of the projects."
+    },
+    {
+      "name": "Freelance for Iterway",
+      "position": "QML Developer",
+      "startDate": "2017-09",
+      "endDate": "2017-12",
+      "summary": "I used QML to develop an app which consisted of a status machine to track the route and stops of trucks in the USA."
+    },
+    {
+      "name": "Softtek",
+      "position": "Team Leader",
+      "startDate": "2016-03",
+      "endDate": "2017-01",
+      "summary": "Besides the development tasks, I was in charge of the team management, our tasks were developing e-commerce plugins and SDK for the integration with TodoPago (payment aggregator) and Decidir (payment gateway)."
+    },
+    {
+      "name": "Softtek",
+      "position": "Integrations Developer",
+      "startDate": "2014-12",
+      "endDate": "2017-01",
+      "summary": "I worked in the development and maintaining of different PHP based e-commerce systems plugins (like OpenCart, Prestashop and Magento) and different languages SDKs (like Php, Ruby and Java) for TodoPago (a payment aggregator) and Decidir (a payment gateway)."
+    },
+    {
+      "name": "Softtek",
+      "position": "Java Developer",
+      "startDate": "2014-09",
+      "endDate": "2014-12",
+      "summary": "I was in charge of maintaining OSDE (an argentinian healthcare company) refund management system developed in Java with JSP and Spring."
+    }
+  ],
+  "education": [
+    {
+      "institution": "UTN",
+      "area": "Information system Engineering",
+      "startDate": "2016-09",
+      "summary": "Ongoing study."
+    },
+    {
+      "institution": "Pathway",
+      "area": "English course",
+      "startDate": "2015-04",
+      "endDate": "2016-05",
+      "summary": "BYU-Idaho (Brigham Young University) program."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "PostgreSQL: Advanced Queries",
+      "issuer": "LinkedInLearning",
+      "date": "2025-08",
+      "summary": "By: Adam Wilbert",
+      "url": "https://www.linkedin.com/learning/certificates/81d3beaae8cb90e7ce0e36b7fdd4c2aba95a5020565c94156bb7c2c58baf501a"
+    },
+    {
+      "name": "PostgreSQL Essential Training",
+      "issuer": "LinkedInLearning",
+      "date": "2025-08",
+      "summary": "By: Adam Wilbert",
+      "url": "https://www.linkedin.com/learning/certificates/ebb9d10e13effcd14f73d9e8bf8f5a9f872d0c1fe31ae1224208a505ab2d674c"
+    },
+    {
+      "name": "Rust Advanced",
+      "issuer": "LinkedInLearning",
+      "date": "2025-05",
+      "summary": "By: Eliezer López",
+      "url": "https://www.linkedin.com/learning/certificates/253af6dd0eb76ace8a355ffa20339722bfb60415dab21eeba2829fd28fa232a8?u=2236273&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BFm9swOZpQtSl%2BbHvyvyjaQ%3D%3D"
+    },
+    {
+      "name": "Rust Essential",
+      "issuer": "LinkedInLearning",
+      "date": "2025-05",
+      "summary": "By: Eliezer López",
+      "url": "https://www.linkedin.com/learning/certificates/6633a730b3a8a6afcb3b5676fb2a1070aebf73c828727df4cc16bab023fed7f4?u=2236273"
+    },
+    {
+      "name": "Go: The Complete Developer's Guide (Golang)",
+      "issuer": "Udemy",
+      "date": "2018-03",
+      "summary": "Master the fundamentals and advanced features of the GoLang"
+    },
+    {
+      "name": "Linux Shell Scripting",
+      "issuer": "Educación IT",
+      "date": "2018-04",
+      "summary": "In site Shell Scripting course"
+    }
+  ],
+  "skills": [
+    {
+      "name": "PROGRAMMING LANGUAGES",
+      "keywords": [
+        "Go (6 years)",
+        "PHP (6 years)",
+        "Ruby (1 year)",
+        "Java (1 year)"
+      ]
+    },
+    {
+      "name": "FRAMEWORKS/LIBRARIES — Go",
+      "keywords": [
+        "Gin",
+        "Mongo Driver",
+        "Temporal.io",
+        "Samber/Do"
+      ]
+    },
+    {
+      "name": "FRAMEWORKS/LIBRARIES — PHP",
+      "keywords": [
+        "Symfony",
+        "Doctrine"
+      ]
+    },
+    {
+      "name": "FRAMEWORKS/LIBRARIES — Ruby",
+      "keywords": [
+        "Rails"
+      ]
+    },
+    {
+      "name": "DATABASES/STORES",
+      "keywords": [
+        "MongoDB",
+        "MySQL",
+        "Redis"
+      ]
+    },
+    {
+      "name": "OTHERS",
+      "keywords": [
+        "Kafka",
+        "RabbitMQ",
+        "Nats",
+        "Docker & Docker Compose",
+        "Kubernetes",
+        "Temporal.io",
+        "Scrum",
+        "GRPC"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "native"
+    },
+    {
+      "language": "English",
+      "fluency": "B2"
+    }
+  ],
+  "meta": {
+    "theme": {
+      "sectionOrder": [
+        "basics",
+        "work",
+        "skills",
+        "education",
+        "certificates",
+        "languages",
+        "projects",
+        "volunteer",
+        "awards",
+        "publications",
+        "interests",
+        "references"
+      ]
+    },
+    "sourceIconAttribution": {
+      "text": "Icons by Icons8",
+      "url": "https://icons8.com/icon/I0MtZH0qNJMp/skype"
+    }
+  }
+}
